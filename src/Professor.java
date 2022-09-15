@@ -3,6 +3,8 @@ public class Professor {
     private String email;
     private String formacao;
 
+    public Professor(String string) {
+    }
     public String getNome() {
         return nome;
     }

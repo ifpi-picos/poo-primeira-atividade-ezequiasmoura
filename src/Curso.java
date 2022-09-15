@@ -7,7 +7,9 @@ public class Curso {
     private Date dataInicio;
     private Date dataFim;
 
-    public String getNome() {
+    public Curso(String string, String string2, int i, Professor p1) {
+	}
+	public String getNome() {
         return nome;
     }
     public void setNome(String nome) {
@@ -36,6 +38,14 @@ public class Curso {
     }
     public void setDataFim(Date dataFim) {
         this.dataFim = dataFim;
+    }
+    public String getNomeProfessor() {
+        return null;
+    }
+    public void realizarMatricula(Aluno aluno) {
+    }
+    public String getAlunos() {
+        return null;
     }
     
 }

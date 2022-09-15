@@ -5,6 +5,8 @@ public class Aluno {
     private Data dataDeNascimento;
     private String email;
    
+    public Aluno(String nomeAluno, Object object) {
+    }
     public String getNome() {
         return nome;
     }
